@@ -1,0 +1,85 @@
+/* Background full-screen */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .login-container {
+    height: 100vh;
+    background: linear-gradient(to bottom, #00c6ff, #0072ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box {
+    background: transparent;
+    text-align: center;
+    padding: 30px;
+    width: 320px;
+  }
+  
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    margin-bottom: 10px;
+  }
+  
+  .username-title {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1em;
+  }
+  
+  .input-icon {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: #888;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    background: #222;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    margin-top: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .login-btn:hover {
+    opacity: 0.9;
+    transform: scale(1.03);
+  }
+  
+  .forgot-link {
+    display: block;
+    margin-top: 15px;
+    color: #e3e3e3;
+    font-size: 0.9em;
+    text-decoration: none;
+  }
+ 
+  
