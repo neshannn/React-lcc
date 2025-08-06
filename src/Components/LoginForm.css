@@ -82,13 +82,5 @@ body, html {
     text-decoration: none;
 
   }
- .forgot-link:hover {
-    text-decoration: underline;
 
-  }
-.forgot-link{
-    color: #e3e3e3;
-    font-size: 0.9em;
-    text-decoration: none;
-}
   
